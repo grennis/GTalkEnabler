@@ -273,8 +273,8 @@ public class GTalkEnablerActivity extends Activity
 			{
 				if (mResult1 == 2 || mResult2 == 2)
 				{
-					TextView t = (TextView)findViewById(R.id.textView2);
-					t.setText(t.getText().toString() + (mResult1 == 2 ? " perm." : " temp."));
+					//TextView t = (TextView)findViewById(R.id.textView2);
+					//t.setText(t.getText().toString() + (mResult1 == 2 ? " perm." : " temp."));
 				}
 				((TextView)findViewById(R.id.status_string)).setText((mResult1 != 2 && mResult2 != 2 ? "disabled" : "enabled"));
 			}
